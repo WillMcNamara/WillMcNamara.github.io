@@ -13,10 +13,10 @@
         <h1>Will McNamara</h1>
 
         <div class=headerlink>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>>
+            <a class=about href="index.html">About</a>
+            <a class=portfolio href="portfolio.html">Portfolio</a>
+            <a class=contact href="contact.html">Contact</a>
+        </div>
     </div>
 
     <div class=main>
@@ -24,24 +24,23 @@
             <h2>Contact</h2>
 
             <form>
-                Name
-                <input type="text" name="name">
-            </form>
-            <form>
-                Email
-                <input type="text" name="email">
-            </form>
-            <form>
-                Message
-                <input type="text" name="message">
+                <label for=Name>Name</label>
+                <input id=Name type="text" name="name" placeholder="Your name...">
+                
+                <label for=Email>Email</label>
+                <input id=Email type="text" name="email" placeholder="Your email...">
+            
+                <label for=message>Message</label>
+                <input id=message type="text" name="message">
+
+                <input type=submit value=Submit>
             </form>
 
-            <button>submit</button>
         </div>
     </div>
 
     <footer>
-        text
+        Copyright ©
     </footer>
 
 </body>
