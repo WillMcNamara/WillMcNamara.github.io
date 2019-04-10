@@ -1,2 +1,1 @@
-# Basic-Portfolio
-html &amp; CSS of personal webpage
+# Responsive-Portfolio
