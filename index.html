@@ -3,45 +3,72 @@
     
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WM About Me</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+        <link rel="stylesheet" type="text/css" href=style.css>
     </head>
 
-    <body>
-    
-    <div class=header>
-        <h1>Will McNamara</h1>
-
-        <div class=headerlink>
-            <a class=about href="index.html">About</a>
-            <a class=portfolio href="portfolio.html">Portfolio</a>
-            <a class=contact href="contact.html">Contact</a>
-        </div>
-    </div>
-    
-    <div class=main>
-        <div class=content>
-            <h2>About Me</h2>
+    <body class="bg-secondary">
         
-            <img src="assets/images/headshot.png" alt="WM portrait">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top border-bottom border-warning">
+            
+                <div class="col-md-2"></div>
+    
+                <h1 class="navbar-brand col-md-4">Will McNamara</h1>
+                
+                <div class="col-md-2"></div>
+                
+                <ul class="navbar-nav float-right col-md-4">
 
-            <p>
-                Almost like another Will, I was born and raised West of Philadelphia. Growing up I enjoyed playing various sports including ice hockey, lacrosse, swimming, and rowing. 
-            </p>
-            <br>
-            <p>
-                I studied Math and Physics at Temple University and continued my love of sports by taking up canoe paddling on the Schuylkill river. I was fortunate enough to earn a spot on the U.S. national dragonboat team in 2015 and 2017 and hope to make it again in the upcoming Summer of 2019.
-            </p>
-            <br>
-            <p>
-                My latest adventure highlights a comittment to begin a new career in the field of software development. With a love for technology and problem solving, it made perfect sense to explore the programming field. The puzzle-like challenge that is learning & compiling code has kept me invested in the process. I look forward to more challenges and creating useful pages and applications for people to use.
-            </p>   
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+
+                </ul>
+        </nav>
+    
+      <div class="container main">
+                <div class="row content">
+                    
+                    <div class="col-md-1 bg-secondary border-right border-warning"></div>
+                    
+                    <div class="col-md-10 bg-light">
+           
+                        <h2 class="display-3 border-bottom border-gray">About Me</h2>
+                    
+                        <img src="images/headshot.png" class="rounded float-left img-responsive mr-2" alt="WM portrait">
+
+                        <p>
+                            Almost like another Will, I was born and raised West of Philadelphia. Growing up I enjoyed playing various sports including ice hockey, lacrosse, swimming, and rowing. 
+                        </p>
+                        <br>
+                        <p>
+                            I studied Math and Physics at Temple University and continued my love of sports by taking up canoe paddling on the Schuylkill river. I was fortunate enough to earn a spot on the U.S. national dragonboat team in 2015 and 2017 and hope to make it again in the upcoming Summer of 2019.
+                        </p>
+                        <br>
+                        <p>
+                            My latest adventure highlights a comittment to begin a new career in the field of software development. With a love for technology and problem solving, it made perfect sense to explore the programming field. The puzzle-like challenge that is learning & compiling code has kept me invested in the process. I look forward to more challenges and creating useful pages and applications for people to use.
+                        </p>   
+                    
+                    </div>
+
+                    <div class="col-md-1 bg-secondary border-left border-warning"></div>
+                
+                </div>
+
         </div>    
     </div>
 
-    <footer>
-        Copyright ©
+    <footer class="page-footer font-small bg-dark text-center text-white border-top border-warning">
+            <div class="text-muted">
+                Copyright ©
+            </div>
     </footer>
 
 </body>

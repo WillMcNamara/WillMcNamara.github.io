@@ -1,49 +1,76 @@
-</html><!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html>
+    <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Will</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Will</title>
+        <link rel="stylesheet" type="text/css" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>        <link rel="stylesheet" type="text/css" href=style.css>
+        <link rel="stylesheet" type="text/css" href=style.css>
+    </head>
 
-<body>
+    <body class="bg-secondary">
 
-<div class=header>
-    <h1>Will McNamara</h1>
-
-    <div class=headerlink>
-        <a class=about href="index.html">About</a>
-        <a class=portfolio href="portfolio.html">Portfolio</a>
-        <a class=contact href="contact.html">Contact</a>
-    </div>
-</div>
-
-<div class=main>
-    <div class=content>
-        <h2>Contact</h2>
-
-        <form>
-            <label for=Name>Name</label>
-            <input id=Name type="text" name="name" placeholder="Your name...">
-            
-            <label for=Email>Email</label>
-            <input id=Email type="text" name="email" placeholder="Your email...">
+        <nav class="navbar border-bottom border-warning navbar-expand-sm bg-dark navbar-dark sticky-top">
+                
+                <div class="col-md-2"></div>
         
-            <label for=message>Message</label>
-            <input id=message type="text" name="message">
+                <h1 class="navbar-brand col-md-4">Will McNamara</h1>
+                    
+                <div class="col-md-2"></div>
 
-            <input type=submit value=Submit>
-        </form>
+                <ul class="navbar-nav float-right col-md-4">
 
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    
+                </ul>
+        </nav>
+
+    <div class="container main">
+        <div class="row content">
+            
+            <div class="col-md-1 bg-secondary border-warning border-right"></div>
+            
+            <div class="col-md-10 bg-light">
+                
+                    <h2 class="display-3 border-bottom border-gray">Contact</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for=Name>Name</label>
+                                <input id="Name" type="Name" class="form-control" placeholder="Your name...">
+                            </div>
+                            <div class="form-group">
+                                <label for=Email>Email</label>
+                                <input id=Email type="email" class="form-control" name="Email" placeholder="Your email...">
+                            </div>
+                            <div class="form-group">
+                                <label for=message>Message</label>
+                                <input id=message type="message" class="form-control input-lg" name="message">
+                            </div>
+                                <button type="submit" class="btn btn-success mb-4">Submit</button>
+
+                        </form>
+                
+            </div>
+
+            <div class="col-md-1 bg-secondary border-warning border-left"></div>
+
+        </div>
     </div>
-</div>
 
-<footer>
-    Copyright ©
-</footer>
+    <footer class="page-footer font-small bg-dark text-center text-white border-top border-warning">
+        <div class="text-muted">
+            Copyright ©
+        </div>
+    </footer>
 
-</body>
+    </body>
 
-</html>
+    </html>

@@ -3,44 +3,88 @@
     
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Will's Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+        <link rel="stylesheet" type="text/css" href=style.css>
     </head>
 
-    <body>
+    <body class="bg-secondary">
 
-    <div class=header>           
-        <h1>Will McNamara</h1>
-        
-        <div class=headerlink>
-            <a class=about href="index.html">About</a>
-            <a class=portfolio href="portfolio.html">Portfolio</a>
-            <a class=contact href="contact.html">Contact</a>    
-        </div>    
-    </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top border-bottom border-warning">
+                
+                <div class="col-md-2"></div>
+    
+                <h1 class="navbar-brand col-md-4">Will McNamara</h1>
+                
+                <div class="col-md-2"></div>
             
-    <div class=main>
-        <div class="content portcontent">
-            <h2>Portfolio</h2>
+                <ul class="navbar-nav float-right col-md-4">
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    
+                </ul>
+        </nav>
+            
+        <div class="container main">
+            <div class="row content">
                 
-                <div>
-                <a href="https://willmcnamara.github.io/GIPHY-API-Page/"><img class=projectodd src="assets/images/proj1.jpg" alt="Project 1 Image"></a>
-                        <!-- <div class=ProjLabels>Project 1</div> -->
+                <div class="col-md-1 bg-secondary border-right border-warning"></div>
+                
+                <div class="col-md-10 bg-light">
+    
+                    <h2 class="display-3 border-bottom border-gray">Portfolio</h2>
+                        
+                    <div class="row">
+                        <div class="col-md-6 pl-2 mb-2">
+                            <a href="#"><img src="images/proj1.jpg" class="img-responsive mr-1 float-left" alt="Project 1 Image"></a>
+                            <p class="">Project 1</p>
+                        </div>
+                        <div class="col-md-6 pl-2 mb-2">
+                            <a href="#"><img src="images/proj2.jpg" class="img-responsive mr-1 float-left" alt="Project 2 Image"></a>
+                            <p class="">Project 2</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 pl-2 mb-2">
+                            <a href="#"><img src="images/proj3.jpg" class="img-responsive mr-1 float-left" alt="Project 3 Image"></a>
+                            <p class="">Project 3</p>
+                        </div>
+                        <div class="col-md-6 pl-2 mb-2">
+                            <a href="#"><img src="images/proj4.jpg" class="img-responsive mr-1 float-left" alt="Project 4 Image"></a>
+                            <p class="">Project 4</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 pl-2">
+                            <a href="#"><img src="images/proj5.jpg" class="img-responsive mr-1 float-left" alt="Project 5 Image"></a>
+                            <p class="">Project 5</p>
+                        </div>
+                    </div>
+
                 </div>
-                <a href="https://willmcnamara.github.io/Train-Schedule/"><img class=projecteven src="assets/images/proj2.jpg" alt="Project 2 Image"></a>
-                <a href="#"><img class=projectodd src="assets/images/proj3.jpg" alt="Project 3 Image"></a>
-                <a href="#"><img class=projecteven src="assets/images/proj4.jpg" alt="Project 4 Image"></a>
-                <a href="#"><img class=projectodd src="assets/images/proj5.jpg" alt="Project 5 Image"></a>
-                
+
+                <div class="col-md-1 bg-secondary border-left border-warning"></div>
+
+            </div>
 
         </div>
-    </div>
-    
-    <footer>
-        Copyright ©
-    </footer>
-
+        
+        
+        <footer class="page-footer font-small bg-dark text-center text-white border-top border-warning">
+            <div class="text-muted">
+                Copyright ©
+            </div>
+        </footer>
 </body>
 
 </html>

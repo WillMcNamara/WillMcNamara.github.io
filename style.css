@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin: auto;
+}
+
+nav {
+    width: 100vw;
+}
+
+.main {
+    margin-bottom: 25px;
+}
