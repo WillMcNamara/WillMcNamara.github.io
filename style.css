@@ -12,3 +12,8 @@ nav {
 .main {
     margin-bottom: 25px;
 }
+
+.img-responsive {
+    height: 100px;
+    width: 100px;
+}
