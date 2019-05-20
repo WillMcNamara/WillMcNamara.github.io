@@ -17,3 +17,8 @@ nav {
     max-width: 150px;
     height: auto;
 }
+
+.img-responsive {
+    height: 100px;
+    width: 100px;
+}
